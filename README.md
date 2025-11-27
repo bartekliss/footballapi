@@ -1,17 +1,12 @@
-# ⚽ Ligowy Asystent (League Assistant)
+#  Ligowy Asystent (League Assistant)
 
 Mobilna aplikacja we Flutterze służąca do przeglądania klubów piłkarskich, sprawdzania ich statystyk oraz składów. Projekt realizuje nowoczesne podejście do architektury mobilnej (MVVM) oraz design inspirowany stylem "Clean UI / E-commerce".
 
 Aplikacja korzysta z zewnętrznego API: [API-Football](https://www.api-football.com/).
 
-## 📱 Zrzuty ekranu
 
-| Ekran Główny | Filtrowanie | Szczegóły Zespołu |
-|:---:|:---:|:---:|
-| ![Home](assets/screenshots/home.png) | ![Filter](assets/screenshots/filter.png) | ![Details](assets/screenshots/details.png) |
-> *Pamiętaj o dodaniu zrzutów ekranu do folderu assets/screenshots w swoim repozytorium.*
 
-## ✨ Funkcjonalności
+##  Funkcjonalności
 
 * **Przeglądanie listy drużyn:** Pobieranie danych z REST API (domyślnie Premier League).
 * **Wyszukiwarka:** Filtrowanie listy w czasie rzeczywistym po nazwie klubu.
@@ -31,7 +26,7 @@ Aplikacja korzysta z zewnętrznego API: [API-Football](https://www.api-football.
 * **Hive** - Lokalna baza danych (NoSQL) do trybu offline.
 * **Cached Network Image** - Optymalizacja ładowania obrazów.
 
-## 📂 Struktura Projektu
+## Struktura Projektu
 
 Projekt oparty jest o wzorzec **MVVM (Model - View - ViewModel)**:
 
@@ -44,4 +39,5 @@ lib/
 │   ├── home_screen.dart    # Lista z wyszukiwarką i filtrami
 │   ├── details_screen.dart # Szczegóły wybranego elementu
 │   └── widgets/            # Reużywalne komponenty
+
 └── main.dart        # Punkt startowy i konfiguracja Theme
